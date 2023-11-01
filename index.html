@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/style.css">
+    <title>Reloj-Digital</title>
+    
+</head>
+<body class="bg-dark row justify-content-center align-items-center vh-100">
+    
+    <div class="reloj col-lg-6 col-none-4 navbar-toggler rounded-3 ">
+        
+        <h1 class="title m-0 row text-light align-items-center justify-content-center bg-primary bg-opacity-75">
+            RELOJ DIGITAL
+        </h1>
+
+        <div class="time m-0 flex-wrap  text-light bg-info bg-opacity-75 row gap-2 justify-content-center align-items-center">
+            <div class="w-25 col-lg-4 h-75 d-flex flex-column align-items-center fw-bolder shadow rounded-4 bg-secondary ">
+                <h5 class="text-primary-emphasis  fw-bold">HORAS</h5>
+                <span id="hora" class="fs-1"></span>
+            </div>
+            <div class="w-25 col-lg-4 h-75 d-flex flex-column align-items-center fw-bolder shadow rounded-4  bg-secondary ">
+                <h5 class="text-primary-emphasis  fw-bold">MINUTOS</h5>
+                <span id="minuto" class="fs-1"></span>
+            </div>
+            <div  class="w-25 col-lg-4 h-75 d-flex flex-column align-items-center fw-bolder shadow rounded-4 bg-secondary ">
+                <h5 class="text-primary-emphasis  fw-bold">SEGUNDOS</h5>
+                <span id="segundo" class="fs-1"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>

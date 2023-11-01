@@ -1,0 +1,10 @@
+.reloj{
+    height: 200px;
+}
+.title{
+    height: 30%;
+    align-self: center;
+}
+.time{
+    height: 70%;
+}
